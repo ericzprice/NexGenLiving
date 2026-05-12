@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Proposed</fullName>
+                <default>false</default>
+                <label>Proposed</label>
+            </value>
+            <value>
+                <fullName>Pending Senior Acceptance</fullName>
+                <default>false</default>
+                <label>Pending Senior Acceptance</label>
+            </value>
+            <value>
+                <fullName>Pending Renter Acceptance</fullName>
+                <default>false</default>
+                <label>Pending Renter Acceptance</label>
+            </value>
+            <value>
+                <fullName>Both Accepted</fullName>
+                <default>false</default>
+                <label>Both Accepted</label>
+            </value>
+            <value>
+                <fullName>Intro Meeting Scheduled</fullName>
+                <default>false</default>
+                <label>Intro Meeting Scheduled</label>
+            </value>
+            <value>
+                <fullName>Agreement Sent</fullName>
+                <default>false</default>
+                <label>Agreement Sent</label>
+            </value>
+            <value>
+                <fullName>Agreement Signed</fullName>
+                <default>false</default>
+                <label>Agreement Signed</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>At Risk</fullName>
+                <default>false</default>
+                <label>At Risk</label>
+            </value>
+            <value>
+                <fullName>On Probation</fullName>
+                <default>false</default>
+                <label>On Probation</label>
+            </value>
+            <value>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+                <label>Suspended</label>
+            </value>
+            <value>
+                <fullName>Ended — Renewed</fullName>
+                <default>false</default>
+                <label>Ended — Renewed</label>
+            </value>
+            <value>
+                <fullName>Ended — Natural Conclusion</fullName>
+                <default>false</default>
+                <label>Ended — Natural Conclusion</label>
+            </value>
+            <value>
+                <fullName>Ended — Mutual Agreement</fullName>
+                <default>false</default>
+                <label>Ended — Mutual Agreement</label>
+            </value>
+            <value>
+                <fullName>Ended — Renter Violation</fullName>
+                <default>false</default>
+                <label>Ended — Renter Violation</label>
+            </value>
+            <value>
+                <fullName>Ended — Senior Withdrawal</fullName>
+                <default>false</default>
+                <label>Ended — Senior Withdrawal</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
