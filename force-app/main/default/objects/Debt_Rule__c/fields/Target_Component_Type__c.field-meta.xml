@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Component_Type__c</fullName>
+    <label>Target Component Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Field</label>
+            </value>
+            <value>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+                <label>Validation Rule</label>
+            </value>
+            <value>
+                <fullName>Report</fullName>
+                <default>false</default>
+                <label>Report</label>
+            </value>
+            <value>
+                <fullName>Dashboard</fullName>
+                <default>false</default>
+                <label>Dashboard</label>
+            </value>
+            <value>
+                <fullName>Page Layout</fullName>
+                <default>false</default>
+                <label>Page Layout</label>
+            </value>
+            <value>
+                <fullName>Permission Set</fullName>
+                <default>false</default>
+                <label>Permission Set</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud</fullName>
+                <default>false</default>
+                <label>Experience Cloud</label>
+            </value>
+            <value>
+                <fullName>SAMPLE RECORDS</fullName>
+                <default>false</default>
+                <label>SAMPLE RECORDS</label>
+            </value>
+            <value>
+                <fullName>Flow Missing Description</fullName>
+                <default>false</default>
+                <label>Flow Missing Description</label>
+            </value>
+            <value>
+                <fullName>Validation Rule Has Unclear Error Message</fullName>
+                <default>false</default>
+                <label>Validation Rule Has Unclear Error Message</label>
+            </value>
+            <value>
+                <fullName>Custom Field Missing Help Text</fullName>
+                <default>false</default>
+                <label>Custom Field Missing Help Text</label>
+            </value>
+            <value>
+                <fullName>Inactive Flow Older Than 90 Days</fullName>
+                <default>false</default>
+                <label>Inactive Flow Older Than 90 Days</label>
+            </value>
+            <value>
+                <fullName>Unused Report Older Than 180 Days</fullName>
+                <default>false</default>
+                <label>Unused Report Older Than 180 Days</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
