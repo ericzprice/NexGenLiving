@@ -1,0 +1,3 @@
+"Technical Debt Item: Technical Debt Number","Component Name","Debt Type","Status","Risk Score","Assigned Admin"
+"TDI-0004","Resident Intake Flow","Flow","New","90","Eric Price"
+"TDI-0009","Resident Record Page","Permission Set","New","90",""

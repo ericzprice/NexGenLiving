@@ -1,0 +1,8 @@
+"Technical Debt Item: Technical Debt Number","Technical Debt Item: ID","Component Name","Status","Risk Score","Debt Type"
+"TDI-0004","a00NS00003JrAg6","Resident Intake Flow","New","90","Flow"
+"TDI-0005","a00NS00003JrUF5","Contact Email Validation","New","75","Validation Rule"
+"TDI-0012","a00NS00003Jtrgj","Contact Page Layout","Ignored","20","Page Layout"
+"TDI-0008","a00NS00003Jsl7K","Resident Record Page","New","75","Lightning Page"
+"TDI-0010","a00NS00003JtrNN","Occupancy Dashboard","Under Review","60","Dashboard"
+"TDI-0009","a00NS00003Jtr7F","Resident Record Page","New","90","Permission Set"
+"TDI-0011","a00NS00003JtrX3","Resident Portal Login Page","In Progress","85","Experience Cloud"
