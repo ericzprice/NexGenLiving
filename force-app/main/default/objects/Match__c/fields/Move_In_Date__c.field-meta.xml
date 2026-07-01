@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Move_In_Date__c</fullName>
+    <description>The agreed move-in date for this match. Used by the Match Activation Flow as the Invoice_Date__c and Billing_Period_Start__c on the first subscription invoices.</description>
+    <label>Move-In Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

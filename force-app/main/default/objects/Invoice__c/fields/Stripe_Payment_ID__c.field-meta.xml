@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stripe_Payment_ID__c</fullName>
+    <description>Stores the Stripe charge ID (e.g. ch_3abc123). In sandbox demo, populated with SIM-[date] to simulate payment confirmation without a live Stripe integration.</description>
+    <externalId>false</externalId>
+    <label>Stripe Payment ID</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

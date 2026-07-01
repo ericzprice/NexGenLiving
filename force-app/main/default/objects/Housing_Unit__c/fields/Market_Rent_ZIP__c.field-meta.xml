@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Market_Rent_ZIP__c</fullName>
-    <label>Market Rent ZIP</label>
+    <description>The median market rent for a comparable room in this property&apos;s ZIP code. Updated monthly by a Scheduled Flow pulling from external data. Used as the baseline in the placement fee formula: (Market_Rent_ZIP__c - Effective_Renter_Rent__c) * 0.15.</description>
+    <label>Market Rent (ZIP)</label>
     <precision>18</precision>
     <required>false</required>
-    <scale>0</scale>
+    <scale>2</scale>
     <trackTrending>false</trackTrending>
     <type>Currency</type>
 </CustomField>

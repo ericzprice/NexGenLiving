@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Type__c</fullName>
+    <description>Categorizes the credit for reporting. SLA Breach credits are always linked to a Case. First Month Waiver is created by the Match Activation Flow. Proration is created by the Match End Flow.</description>
+    <label>Credit Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SLA Breach</fullName>
+                <default>false</default>
+                <label>SLA Breach</label>
+            </value>
+            <value>
+                <fullName>First Month Waiver</fullName>
+                <default>false</default>
+                <label>First Month Waiver</label>
+            </value>
+            <value>
+                <fullName>Goodwill Adjustment</fullName>
+                <default>false</default>
+                <label>Goodwill Adjustment</label>
+            </value>
+            <value>
+                <fullName>Proration</fullName>
+                <default>false</default>
+                <label>Proration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

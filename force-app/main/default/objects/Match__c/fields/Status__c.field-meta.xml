@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
+    <description>Lifecycle status of the Match. Flows use this field heavily: Monthly Billing filters on Active, Dunning Flow sets Suspended, Proration Flow triggers on Ended values. Validation rule prevents Active without Agreement_Signed__c = true.</description>
     <label>Status</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
@@ -45,7 +46,7 @@
             </value>
             <value>
                 <fullName>Active</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>Active</label>
             </value>
             <value>
@@ -64,29 +65,29 @@
                 <label>Suspended</label>
             </value>
             <value>
-                <fullName>Ended — Renewed</fullName>
+                <fullName>Ended - Renewed</fullName>
                 <default>false</default>
-                <label>Ended — Renewed</label>
+                <label>Ended - Renewed</label>
             </value>
             <value>
-                <fullName>Ended — Natural Conclusion</fullName>
+                <fullName>Ended - Natural Conclusion</fullName>
                 <default>false</default>
-                <label>Ended — Natural Conclusion</label>
+                <label>Ended - Natural Conclusion</label>
             </value>
             <value>
-                <fullName>Ended — Mutual Agreement</fullName>
+                <fullName>Ended - Mutual Agreement</fullName>
                 <default>false</default>
-                <label>Ended — Mutual Agreement</label>
+                <label>Ended - Mutual Agreement</label>
             </value>
             <value>
-                <fullName>Ended — Renter Violation</fullName>
+                <fullName>Ended - Renter Violation</fullName>
                 <default>false</default>
-                <label>Ended — Renter Violation</label>
+                <label>Ended - Renter Violation</label>
             </value>
             <value>
-                <fullName>Ended — Senior Withdrawal</fullName>
+                <fullName>Ended - Senior Withdrawal</fullName>
                 <default>false</default>
-                <label>Ended — Senior Withdrawal</label>
+                <label>Ended - Senior Withdrawal</label>
             </value>
             <value>
                 <fullName>Declined</fullName>

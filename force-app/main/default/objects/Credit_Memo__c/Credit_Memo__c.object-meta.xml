@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Billing credit record that reduces an Invoice balance. Used for SLA breach penalties, first-month renter waivers, proration adjustments, and goodwill credits. Linked to Invoice__c via Applied_Invoice__c lookup — the Invoice Roll-Up Summary field sums all applied credits automatically.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -155,8 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Credit Memo</label>
     <nameField>
-        <label>Credit Memo Name</label>
-        <type>Text</type>
+        <displayFormat>CM-{0000}</displayFormat>
+        <label>Credit Memo Number</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Credit Memos</pluralLabel>
     <searchLayouts></searchLayouts>

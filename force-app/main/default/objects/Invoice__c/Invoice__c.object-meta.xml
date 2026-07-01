@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Billing invoice record for NexGen Living monthly subscriptions, placement fees, and one-time charges.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -155,8 +156,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Invoice</label>
     <nameField>
-        <label>Invoice Name</label>
-        <type>Text</type>
+        <displayFormat>INV-{0000}</displayFormat>
+        <label>Invoice Number</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Invoices</pluralLabel>
     <searchLayouts></searchLayouts>

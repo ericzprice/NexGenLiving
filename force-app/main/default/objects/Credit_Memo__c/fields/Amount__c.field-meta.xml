@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount__c</fullName>
+    <description>The credit amount. Stored as a positive number — the Invoice Total Amount formula subtracts it (Base_Amount__c - Credit_Applied__c). The Roll-Up Summary on Invoice__c sums this field across all applied Credit Memos.</description>
+    <label>Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

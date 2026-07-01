@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invoice_Type__c</fullName>
+    <description>Categorizes the invoice for reporting and flow filtering. Monthly Billing Scheduled Flow filters on this to avoid duplicates.</description>
+    <label>Invoice Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monthly Subscription</fullName>
+                <default>true</default>
+                <label>Monthly Subscription</label>
+            </value>
+            <value>
+                <fullName>Placement Fee</fullName>
+                <default>false</default>
+                <label>Placement Fee</label>
+            </value>
+            <value>
+                <fullName>One-Time</fullName>
+                <default>false</default>
+                <label>One-Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

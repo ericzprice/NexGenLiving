@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applied_Invoice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Invoice this credit reduces. This is the foreign key that drives the Roll-Up Summary field (Credit_Applied__c) on Invoice__c. When populated, the invoice Total Amount recalculates automatically.</description>
+    <label>Applied Invoice</label>
+    <referenceTo>Invoice__c</referenceTo>
+    <relationshipLabel>Credit Memos</relationshipLabel>
+    <relationshipName>Credit_Memos</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

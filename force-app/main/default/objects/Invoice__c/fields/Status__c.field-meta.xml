@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Tracks payment lifecycle. Dunning Flow entry conditions filter on Failed statuses. Monthly Billing Flow filters on Draft/Sent to find open invoices for credit application.</description>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Sent</fullName>
+                <default>false</default>
+                <label>Sent</label>
+            </value>
+            <value>
+                <fullName>Payment Pending</fullName>
+                <default>false</default>
+                <label>Payment Pending</label>
+            </value>
+            <value>
+                <fullName>Paid</fullName>
+                <default>false</default>
+                <label>Paid</label>
+            </value>
+            <value>
+                <fullName>Partial Payment</fullName>
+                <default>false</default>
+                <label>Partial Payment</label>
+            </value>
+            <value>
+                <fullName>Failed - Retry 1</fullName>
+                <default>false</default>
+                <label>Failed - Retry 1</label>
+            </value>
+            <value>
+                <fullName>Failed - Retry 2</fullName>
+                <default>false</default>
+                <label>Failed - Retry 2</label>
+            </value>
+            <value>
+                <fullName>Failed - Final</fullName>
+                <default>false</default>
+                <label>Failed - Final</label>
+            </value>
+            <value>
+                <fullName>Voided</fullName>
+                <default>false</default>
+                <label>Voided</label>
+            </value>
+            <value>
+                <fullName>Written Off</fullName>
+                <default>false</default>
+                <label>Written Off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Applied__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Total credits applied to this invoice. Set by the flow that creates or applies a Credit Memo (SLA credit, first-month waiver, proration). The Total Amount formula subtracts this from Base Amount.</description>
+    <label>Credit Applied</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
