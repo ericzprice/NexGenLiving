@@ -249,6 +249,12 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <inputAssignments>
+            <field>Agreement_Signed__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Status__c</field>
             <value>
                 <stringValue>Active</stringValue>
